@@ -9,7 +9,9 @@ function MyProfile(){
             </strong>
             <strong>
                 026740491604-6 
-                กากา
+            </strong>
+            <strong>
+                ประวิติการทำงาน: Accounting Admin 
             </strong>
             <MyEducateion/>
         </div>
