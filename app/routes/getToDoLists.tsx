@@ -1,5 +1,8 @@
 import { space } from "postcss/lib/list";
 import { toDoItem } from "./toDolists";
+import MyMenu from "./templates/mymenu"
+import MyFooter from "./templates/myfooter"
+
 
 function CompletedCheck ({c} : {c:boolean}){
     if(c)
@@ -28,9 +31,12 @@ export default function ToDolists (){
 
     );
     return (
+        
         <div className="m-3">
+        <MyMenu/>
             <h1 className="text-xl">สิ่งที่ต้องทำ</h1>
             {listItems}
+        <MyFooter/>    
         </div>
       
     );
